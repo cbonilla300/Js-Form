@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+form {
+    border: 2px solid black;
+    width: 400px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: rgba(77, 63, 119, .92);
+    border-radius: 1rem;
+}
+h1 {
+    text-align: center;
+}
+
