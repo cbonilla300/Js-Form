@@ -27,7 +27,7 @@
     let personalInfo = ''
     // for loop function that list userinfo
     for(i = 0; i<newUserInfo.length; i++){
-        personalInfo += `<li>${newUserInfo[i]}</li>`
+        personalInfo += `<li style="list-style:none">${newUserInfo[i]}</li>`
     }
     document.getElementById("info").innerHTML = `<ul>${personalInfo}</ul>`;
  }
